@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title contenteditable="false">BOMMA GEETHANJALI – B.Tech Student</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 30px;
+      border-bottom: 3px solid #0073b1;
+      padding-bottom: 20px;
+    }
+    .profile-pic img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+    .intro {
+      flex: 1;
+    }
+    .intro h1 {
+      font-size: 2rem;
+      margin-bottom: 8px;
+    }
+    .intro p {
+      margin-bottom: 6px;
+    }
+    .intro a {
+      color: #0073b1;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #0073b1;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    .project {
+      margin-bottom: 15px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding-top: 20px;
+      border-top: 1px solid #ccc;
+    }
+    @media screen and (max-width: 600px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .profile-pic {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="profile-pic">
+      <img contenteditable="false" src="img.jpg" alt="Profile picture"/>
+    </div>
+    <div class="intro">
+      <h1 contenteditable="true">Bomma Geethanjali</h1>
+      <p contenteditable="true">B.Tech Student – Malla Reddy College of Engineering and Technology</p>
+      <p contenteditable="true">As a B.Tech CSE (AIML) student, I am driven by a deep curiosity for AI-powered solutions and the future of intelligent systems. 
+        I constantly seek opportunities to learn, grow, and apply my knowledge to real-time applications.
+        Whether it's through hands-on projects, internships, or research, 
+        I thrive in environments where technology meets creativity and purpose.</p>
+      <a href="https://www.linkedin.com/in/bommageethanjali" target="_blank">Visit My LinkedIn</a><br>
+      <a href= "https://github.com/BommaGeethanjali"target="_blank">Visit My Github</a>
+    </div>
+  </header>
+
+  <section>
+    <h2 contenteditable="true">Education</h2>
+    <ul>
+      <li contenteditable="true">
+        B.Tech in Computer Science and Engineering – Artificial Intelligence and Machine Learning<br/>
+        Malla Reddy College of Engineering & Technology, Hyderabad (2025 – Present)
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 contenteditable="true">Skills</h2>
+    <ul contenteditable="true">
+      <li>Languages: C, C++, Java, Python</li>
+      <li>Web Development: HTML, CSS, JavaScript</li>
+      <li>Cloud & Tools: Git, SQL, Firebase, Google AI Tools</li>
+      <li>Domains: Machine Learning, Cybersecurity, Sign Language AI</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 contenteditable="true">Projects</h2>
+    <div class="project">
+      <h3 contenteditable="true">AI Assistant for Differently Abled</h3>
+      <p contenteditable="true">An innovative voice and sign recognition assistant using Google AI tools for deaf-mute communication.</p>
+    </div>
+    <div class="project">
+      <h3 contenteditable="true">Smart Traffic Control System</h3>
+      <p contenteditable="true">Deep learning-based system to manage urban traffic efficiently using real-time data.</p>
+    </div>
+    
+  </section>
+
+  <section>
+    <h2 contenteditable="true">Certifications & Achievements</h2>
+    <ul>
+      <li contenteditable="true">AICTE Internships | NHAI, AI, and Cybersecurity</li>
+      <li contenteditable="true">UniAthena Certification – Artificial Intelligence</li>
+      <li contenteditable="true">Top 5 in State-Level Hackathon – 2024</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 contenteditable="true">Contact</h2>
+    <p contenteditable="true">Email: geethanjali.bomma950gmail.com</p>
+    <p contenteditable="true">Phone: +91-9963555996</p>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Bomma Geethanjali . All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
